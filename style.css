@@ -1,69 +1,169 @@
-*
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
 }
-body
-{
-  background: #4e4e4e;
-}
-.box
-{
-  width: 30%;
-  height: auto;
-  border: 1px solid #dadada;
-  /*padding: 20px 0;*/
-  margin: 40px auto;
-  display: flex;
-  /*justify-content: center; center | flex-end | flex-start | space-between
-  align-items: center;*/
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: column;
-  box-shadow: 0 0 5px 2px #1B1A1A;
-}
-.box1
-{
-	flex-basis: 35%;
-	/*margin: 20px;*/
-  background: lightgrey;
-}
-.box1 img
+header
 {
 	width: 100%;
+	height: 550px;
+	background: url(img/fon.jpg) center center no-repeat;
+	text-align: center;
+	color: #233136;
 }
-.box1 p
+header nav
 {
-	text-align: justify;
-  padding: 15px;
-  color: rgba(0,0,0,0.5)
+	width: 80%;
+	margin: auto;
+	padding-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 2em;
+
 }
-.box1 h1
+header h1
 {
-  padding: 15px;
-  color: black;
+	color: #233136;
+	padding: 180px;
 }
-.box2
+.biography
 {
-  height: 2%
-  width: auto;
-  /*margin: 0 20px;*/
-  background: grey;
+	width: 100%;
+	height: 550px;
+	background: url(img/fon2.jpg) center center no-repeat;
+	text-align: center;
 }
-.box2 p
+.bio
 {
-  text-align: justify;
-  padding: 10px;
-  color: rgba(0,0,0,0.5)
+	color: #233136;
+	padding: 180px;
+	text-align: right;
+	font-size: 25px;
+	list-style-position: inside;
 }
-.fa-gratipay
+.me
 {
-  color: blue;
-  margin-left: 300px;
+	height: 15px;
+	width: 15px;
+	text-align: left;
+	float: left;
 }
-.fa-arrow-circle-o-right
+
+.me img
 {
-  color: color: black;
-  margin-left: 320px;
+	width: 750px;
+	height: 550px;
+}
+.plans
+{
+	width: 100%;
+	height: 550px;
+	background: url(img/fon3.jpg) center center no-repeat;
+	text-align: center;
+}
+.plan
+{
+	color: #233136;
+	padding: 180px;
+	text-align: right;
+	font-size: 14px;
+	list-style-position: inside;
+}
+.me2
+{
+	height: 15px;
+	width: 15px;
+	text-align: left;
+	float: left;
+}
+.music
+{
+	width: 100%;
+	height: 550px;
+	background: url(img/fon4.jpg) center center no-repeat;
+	text-align: center;
+}
+.mus
+{
+	color: #233136;
+	padding: 180px;
+	text-align: right;
+	font-size: 25px;
+	list-style-position: inside;
+}
+.me3
+{
+	height: 15px;
+	width: 15px;
+	text-align: left;
+	float: left;
+}
+.books
+{
+	width: 100%;
+	height: 550px;
+	background: url(img/fon5.jpg) center center no-repeat;
+	text-align: center;
+}
+.book
+{
+	color: #233136;
+	padding: 180px;
+	text-align: right;
+	font-size: 25px;
+	list-style-position: inside;
+}
+.me4
+{
+	height: 15px;
+	width: 15px;
+	text-align: left;
+	float: left;
+}
+.movies
+{
+	width: 100%;
+	height: 550px;
+	background: url(img/fon6.jpg) center center no-repeat;
+	text-align: center;
+}
+.movie
+{
+	color: #233136;
+	padding: 180px;
+	text-align: right;
+	font-size: 25px;
+	list-style-position: inside;
+}
+.me4
+{
+	height: 15px;
+	width: 15px;
+	text-align: left;
+	float: left;
+}
+.giff
+{
+	width: 100%;
+	height: 750px;
+	background: url(img/fon.jpg) center center no-repeat;
+	text-align: center;
+}
+.gif
+{
+	padding: 180px;
+	text-align: center;
+	font-size: 45px;
+	list-style-position: inside;
+}
+.me6
+{
+	height: 25px;
+	width: 25px;
+	text-align: center;
+	float: center;
+}
+.giff h1
+{
+	color: #233136;
 }
